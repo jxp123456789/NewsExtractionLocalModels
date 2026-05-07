@@ -1,0 +1,13 @@
+# ======================
+# Ollama 本地服务部署说明
+# ======================
+# 1. 安装Ollama：访问 https://ollama.com/ 下载对应系统安装包（Windows/macOS/Linux）
+# 2. 启动Ollama服务：安装后自动后台运行（或终端执行 `ollama serve`）
+# 3. 拉取所需模型：终端执行 `ollama pull gemma4:latest`（与代码中OLLAMA_MODEL对应）
+# 4. 验证服务：访问 http://localhost:11434 确认服务正常（无需额外配置）
+
+# ======================
+# Python 依赖包（执行 pip install -r requirements.txt 安装）
+# ======================
+requests>=2.31.0
+beautifulsoup4>=4.12.3
